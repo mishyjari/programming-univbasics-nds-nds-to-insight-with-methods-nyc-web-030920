@@ -5,7 +5,7 @@ require 'directors_database'
 # using director_data as input
 
 def gross_for_director(director_data) 
-  puts director_data
+
   director_movies = [] # Will store movie data for the matching director
   director_gross = 0
   
@@ -19,6 +19,7 @@ def gross_for_director(director_data)
     end
     i += 1
   end
+  puts director_movies
   
   puts director_movies[0][:worldwide_gross]
   # Iterate over director_movies and add the value of each :worldwide_gross to director_gross
