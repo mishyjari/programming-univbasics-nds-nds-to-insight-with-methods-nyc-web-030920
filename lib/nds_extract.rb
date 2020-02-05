@@ -27,7 +27,7 @@ def gross_for_director(director_data)
     j += 1
   end
   puts director_gross
-  director_gross
+  return director_gross
 end
 
 # Write a method that, given an NDS creates a new Hash
