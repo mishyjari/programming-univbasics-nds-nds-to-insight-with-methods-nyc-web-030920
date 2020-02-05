@@ -23,7 +23,6 @@ director_movies[0][:worldwide_gross]
   # Iterate over director_movies and add the value of each :worldwide_gross to director_gross
   j = 0
   while j < director_movies.length do
-    puts director_gross
     director_gross += director_movies[j][:worldwide_gross]
     j += 1
   end
