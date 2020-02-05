@@ -19,8 +19,7 @@ def gross_for_director(director_data)
     end
     i += 1
   end
-  puts director_movies.length
-  
+
   # Iterate over director_movies and add the value of each :worldwide_gross to director_gross
   j = 0
   while j < director_movies.length do
