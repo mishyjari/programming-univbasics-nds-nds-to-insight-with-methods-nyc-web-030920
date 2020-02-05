@@ -24,7 +24,6 @@ def gross_for_director(director_data)
   j = 0
   while j < director_movies.length do
     director_gross += director_movies[j][:worldwide_gross]
-    puts director_gross
     j += 0
   end
   director_gross
