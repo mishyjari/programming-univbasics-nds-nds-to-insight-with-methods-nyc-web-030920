@@ -6,7 +6,7 @@ require 'directors_database'
 
 def gross_for_director(director_data) 
 
-  director_movies = [] # Will store movie data for the matching director
+  director_movies = {} # Will store movie data for the matching director
   director_gross = 0
   
   # Find matching names and return a hash with movie data
