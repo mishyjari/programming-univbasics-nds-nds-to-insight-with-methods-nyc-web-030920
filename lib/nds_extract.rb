@@ -5,6 +5,7 @@ require 'directors_database'
 # using director_data as input
 
 def gross_for_director(director_data) 
+  puts director_data
   director_movies = [] # Will store movie data for the matching director
   director_gross = 0
   
