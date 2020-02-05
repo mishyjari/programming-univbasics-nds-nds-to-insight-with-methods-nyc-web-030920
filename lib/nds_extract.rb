@@ -36,7 +36,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  puts nds
+  puts pp nds
   result = {}
   
 end
