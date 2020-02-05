@@ -15,7 +15,7 @@ def gross_for_director(director_data)
     # Find hash with matching name values
     if directors_database[i][:name] == director_data[:name]
       # Assign the hash for this director's movie data to the obj director_movies
-      director_movies << directors_database[i][:movies]
+      director_movies = directors_database[i][:movies]
     end
     i += 1
   end
